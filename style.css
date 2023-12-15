@@ -1,4 +1,3 @@
-
 .menu-logo2 {
   width: 440px;
   height: 365px;
@@ -10,7 +9,7 @@
   justify-content: space-around;
   position: absolute;
   z-index: 2;
-  margin-top: 30px;
+  margin-top: 50px;
   color: white;
   margin-left: 30px;
 }
@@ -33,8 +32,7 @@
 .menu-name {
   font-weight: 1000;
   margin-right: 21em;
-  font-family: 'Dancing Script', cursive;
-
+  font-family: "Dancing Script", cursive;
 }
 .carousel-indicators {
   position: absolute;
@@ -57,11 +55,11 @@
   position: absolute;
   display: flex;
   flex-direction: column;
-
+  gap: 40px;
   margin-top: 308px;
-  margin-left: 114px;
+  margin-left: 184px;
   color: white;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 
 .dot {
@@ -69,14 +67,14 @@
   height: 15px;
   width: 15px;
   margin: 0 2px;
-  background-color: #bbb;
+  background-color: #e4dd12;
   border-radius: 50%;
   display: inline-block;
 }
 .text-align {
-  z-index: 1;
+  z-index: 100;
   position: absolute;
-  margin-top: 561px;
+  margin-top: 661px;
   margin-left: 20pc;
 }
 .img1 {
@@ -91,13 +89,14 @@
 }
 .text-main1 {
   color: white;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
 }
 .img2 {
   display: flex;
   padding-top: 102px;
   padding-left: 100px;
   gap: 100px;
+  height: 517px;
 }
 
 .text-main2 {
@@ -105,8 +104,20 @@
 }
 .text-main4 {
   border: solid 1px yellow;
-  background-color: yellow;
+  background-color: rgba(255, 255, 0, 0.672);
   color: wheat;
   border-radius: 10px;
   padding: 5px;
+  width: 150px;
+}
+.menu-icon {
+  padding-left: 57px;
+}
+.text-button {
+  color: white;
+  border: solid 2px yellow;
+  width: 200px;
+  height: 50px;
+  border-radius: 14px;
+  background-color: rgba(255, 255, 0, 0.655);
 }
